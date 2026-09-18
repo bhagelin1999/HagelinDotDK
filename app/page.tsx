@@ -18,7 +18,7 @@ export default function Home() {
           <Link 
             href="/" 
             //className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-cyan-400 transition-all duration-300"
-            className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-white hover:to-cyan-400 transition-all duration-300"
+            className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-white hover:bg-cyan-400 transition-all duration-300"
           >
             Benjamin Edon Hagelin.
           </Link>
