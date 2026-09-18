@@ -37,23 +37,12 @@ export default function ContactPage() {
         <section className="py-20 md:py-32 space-y-8 relative">
           <div className="space-y-2">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white leading-[1.1] drop-shadow-[0_0_15px_rgba(34,211,238,0.3)]">
-              WELCOME TO MY PORTFOLIO <br />
+              CONTACT <br />
             </h1>
           </div>
           <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-fuchsia-500/50 pl-6">
-            Developer With a Bachelor in Computer Science and a Masters in Game Development
+            If Interested, Reach out Through One of The Platforms Below
           </p>
-          <div className="pt-8 flex gap-6">
-            <Link 
-              href="#work" 
-              className="group relative px-8 py-3 bg-cyan-950/30 border border-cyan-500/50 text-cyan-300 font-bold tracking-widest uppercase text-sm overflow-hidden hover:bg-cyan-900/50 transition-all hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]"
-            >
-              <span className="relative z-10 flex items-center gap-2">
-                CHECK OUT MY PROJECTS <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-cyan-400/10 to-transparent -translate-x-full group-hover:animate-shimmer" />
-            </Link>
-          </div>
         </section>
 
         {/* Contact */}

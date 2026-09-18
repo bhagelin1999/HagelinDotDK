@@ -17,7 +17,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link 
             href="/" 
-            className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-cyan-400 transition-all duration-300"
+            //className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-fuchsia-400 hover:to-cyan-400 transition-all duration-300"
+            className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-white hover:to-cyan-400 transition-all duration-300"
           >
             Benjamin Edon Hagelin.
           </Link>
@@ -45,7 +46,7 @@ export default function Home() {
           </p>
           <div className="pt-8 flex gap-6">
             <Link 
-              href="#work" 
+              href="/projects" 
               className="group relative px-8 py-3 bg-cyan-950/30 border border-cyan-500/50 text-cyan-300 font-bold tracking-widest uppercase text-sm overflow-hidden hover:bg-cyan-900/50 transition-all hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2">
