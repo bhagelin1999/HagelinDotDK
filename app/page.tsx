@@ -134,22 +134,21 @@ export default function Home() {
         <section id="contact" className="py-20 border-t border-cyan-900/30">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">
-              READY TO <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">LAUNCH?</span>
+              LET&apos;S <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">CONNECT?</span>
             </h2>
             <p className="text-cyan-200/60 text-lg">
-              Fork this template on GitHub and make it yours. Update the content, add your projects, and deploy to GitHub Pages in under 30 minutes.
+              Have a project in mind or just want to say hi? Send me an email and I&apos;ll get back to you.
             </p>
             <div className="flex flex-col items-center gap-6">
               <a 
-                href="https://github.com/ladykerr/gfbs3-portfolio-demo" 
+                href="mailto:b_hagelin@msn.com"
                 className="px-10 py-4 bg-fuchsia-600 text-white font-bold tracking-widest uppercase text-sm hover:bg-fuchsia-500 transition-all hover:shadow-[0_0_30px_rgba(232,121,249,0.6)] hover:scale-105 duration-300 clip-path-polygon"
               >
-                FORK ON GITHUB
+                SEND ME AN EMAIL
               </a>
               <div className="flex items-center gap-8 pt-4">
                 <SocialLink href="https://github.com" label="GITHUB" />
                 <SocialLink href="https://linkedin.com" label="LINKEDIN" />
-                <SocialLink href="https://twitter.com" label="TWITTER" />
               </div>
             </div>
           </div>
