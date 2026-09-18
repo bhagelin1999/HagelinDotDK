@@ -147,8 +147,8 @@ export default function Home() {
                 SEND ME AN EMAIL
               </a>
               <div className="flex items-center gap-8 pt-4">
-                <SocialLink href="https://github.com" label="GITHUB" />
-                <SocialLink href="https://linkedin.com" label="LINKEDIN" />
+                <SocialLink href="https://github.com/bhagelin1999" label="GITHUB" />
+                <SocialLink href="https://www.linkedin.com/in/benjamin-edon-hagelin-0a6b48194/" label="LINKEDIN" />
               </div>
             </div>
           </div>
